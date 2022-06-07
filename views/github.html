@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github</title>
+    <script defer src="../js/github.js"></script>
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/github.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+</head>
+<body>
+    <header>
+        <h2 class = "logo">PracticeLearn</h2>
+        <nav>
+            <ul class = "nav-area">
+                <li><a href = "../index.html">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "ourteam.html">Our Team</a></li>
+                <li><a href = "game.html">Game</a></li>
+                <li><a href = "services.html">Services</a></li>
+                <li><a href = "contactus.html">Contact</a></li>   
+            </ul>
+        </nav>   
+    </header>
+
+    <div classs = "container" >
+        <form id="form" autocomplete="off" style="width: 1000px">
+            <h5 style="text-align: left">Github Search User By Name</h5>
+            <div class ="form-group">
+                <input type="text" id ="username" placeholder="UserName" class="form-control">
+            </div>
+            <div class="form-group">
+                <button class ="btn btn-success">Search</button>
+                <button  onclick="window.location.href = '../index.html'"  class ="btn btn-danger" style="float:right">Cancel</button>
+            </div>
+        </form>
+        <div id ="result1">
+        </div>
+    </div>
+    
+    <footer class="footer" style="margin-top: 150px">
+        <div class="inner-footer">
+            <div class ="social-link">
+                <ul>
+                    <li class ="social-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class ="social-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                    <li class ="social-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class ="social-item"><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="outer-footer">
+            Copyright &copy; Jawad Learning Pro. All Rights Reserved 
+        </div>  
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</html>

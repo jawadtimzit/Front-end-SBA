@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <script defer src="../js/signin.js"></script>
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+</head>
+<body>
+    <header>
+        <h2 class = "logo">PracticeLearn</h2>
+        <nav>
+            <ul class = "nav-area">
+                <li><a href = "../index.html">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "ourteam.html">Our Team</a></li>
+                <li><a href = "game.html">Game</a></li>
+                <li><a href = "services.html">Services</a></li>
+                <li><a href = "contactus.html">Contact</a></li>  
+            </ul>
+        </nav>
+        <a href=""></a>
+    </header>
+
+    <div class="container">
+        <form id="form" action="/" name ="formregister" onsubmit="return validate(this);">
+            <h1>Sign In</h1>
+            <div class = "input-control">
+                <label for ="username">Username</label>
+                <input id="username" name="username" type="text" >
+                <div class = "error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name = "password" type="password">
+                <div class = "error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Confirm your password</label>
+                <input id="password2" name = "password2" type="password">
+                <div class = "error"></div>
+            </div>
+            <button style="background-color: green;">Sign In</button>
+            </br> </br>
+            <div>
+                <a style="float:left;color:blue">Forgot password? </a>
+                <a style="float:right; color:blue" href="signup.html">Join now</a> 
+            </div>
+            <div><br/></div>
+            </form>      
+    </div>
+    <footer class="footer" style="margin-top: 100px">
+        <div class="inner-footer">
+            <div class ="social-link">
+                <ul>
+                    <li class ="social-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class ="social-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                    <li class ="social-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li class ="social-item"><a href="#"><i class="fab fa-tumblr-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="outer-footer">
+            Copyright &copy; Jawad Learning Pro. All Rights Reserved 
+        </div>  
+    </footer>
+</body>
+</html>
