@@ -2,8 +2,8 @@
 ## Website Features: 
 #### 1- This website is created with HTML, CSS, and JavaScript. It’s an online platform for E-learning technologies and Frameworks. 
 #### 2- Home Page: The main page of the website 
-######    2.1 Sign-in page: Has validation form to check user’s inputs
-######    2.2 Signup page: Has validation form to validate user input before submission
+######    2.1- Sign-in page: Has validation form to check user’s inputs
+######    2.2- Signup page: Has validation form to validate user input before submission
 #### 3- About Page: This page has information about our E-learning platform and what we do
 #### 4- Our Team page: Information about our team, and professors
 #### 5- Game page: Comin soon
