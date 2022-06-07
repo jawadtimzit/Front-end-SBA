@@ -1,10 +1,10 @@
 # Getting Started
 ## Website Features: 
 #### This website is created with HTML, CSS, and JavaScript. It’s an online platform for E-learning technologies and Frameworks. 
-#### •	Home Page: The main page of the website 
+#### •  Home Page: The main page of the website 
 ###### 	Sign-in page: Has validation form to check user’s inputs
 ###### 	Signup page: Has validation form to validate user input before submission
-#### •About Page: This page has information about our E-learning platform and what we do
+#### •  About Page: This page has information about our E-learning platform and what we do
 #### •	Our Team page: Information about our team, and professors
 #### •	Game page: Comin soon
 #### •	Services: This is where we have our platform learning materials and services we provide
@@ -15,7 +15,7 @@
 ###### 	AWS: Learn how to use AWS cloud services 
 ###### 	Django and Flask: Learn Python frameworks
 ###### 	Docker: Develop and deploy with Docker
-###### •	Contact page: connect with us and send us a message
+#### •	Contact page: connect with us and send us a message
 ## clone and run the website: 
 #### 1-	Open Visual studio code 
 #### 2-	Clone Repo: git clone 
