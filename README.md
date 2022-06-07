@@ -5,9 +5,9 @@
 ###### 	Sign-in page: Has validation form to check user’s inputs
 ###### 	Signup page: Has validation form to validate user input before submission
 #### •About Page: This page has information about our E-learning platform and what we do
-####•	Our Team page: Information about our team, and professors
-####•	Game page: Comin soon
-####•	Services: This is where we have our platform learning materials and services we provide
+#### •	Our Team page: Information about our team, and professors
+#### •	Game page: Comin soon
+#### •	Services: This is where we have our platform learning materials and services we provide
 ###### 	GitHub: This feature will allow to search for any user on GitHub by their name and display their picture so users can access repositories of other people and learn by studying example code
 ###### 	React for Beginners: Build and learn fundamentals of ReactJs
 ###### 	Spring Boot: Learn Spring boot in four weeks and build applications
