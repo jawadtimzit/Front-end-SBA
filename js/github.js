@@ -16,7 +16,7 @@ $(document).ready(function (){
     // lets now implement the method to search user that is inputed
     function getUsers(username){
         // get request to the Api endpoint- q will querry for username- pnly display up to 80 pages- call back funtion to get the data
-        $.get("https://api.github.com/search/users?q="+ username +"+in:user&per_page=100", function(data){
+        $.get("https://api.github.com/search/users?q="+ username +"+in:user&per_page=80", function(data){
             //console log to check if username was returned from Api
             console.log(data)
             // we get items from array and grab url of user(html_url)then also grab picture of user
